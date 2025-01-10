@@ -2,10 +2,10 @@
 layout: default
 ---
 
-Do you know that Tübingen has more than **60 research groups** working in the field of AI?
-Do you have a research idea that would like to share with all the local AI researchers?
-Do you want to find out what your colleague next door is working on?
-Come to Friday Talk！
+Do you know that there are more than **60 research groups** in Tübingen working in the field of AI?
+Do you have a research idea that you would like to share with the local AI researchers?
+Do you want to find out what the colleague next door is working on?
+Come to the Friday Talks！
 
 
 ---
@@ -28,9 +28,11 @@ The following schedule is tentative:
 
 ## **Call for Talks** {#call}
 
-We invite all AI researchers in Tübingen to share their recent work in this 10 mins Friday Talk series!
+We invite all AI researchers in Tübingen to share their recent work in the 10 minute Friday Talks series!
 
-If you would like to give a talk, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSe5jIJy-v0jmO9iDzAszIuvPcpmc0khMxwRCTPEgjUm_zcAsg/viewform).
+If you would like to **give a talk**, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSe5jIJy-v0jmO9iDzAszIuvPcpmc0khMxwRCTPEgjUm_zcAsg/viewform).
+
+If you are **interested in the work of a colleague** you can **nominate** her or him by filling out this [form](https://docs.google.com/forms/d/e/1FAIpQLSemwF-lT7CSTaP-AR2gsB_XpkgrYkxCo_cUidL-RgH67JM3Pw/viewform?usp=dialog).
 
 ---
 
@@ -79,7 +81,7 @@ If you would like to give a talk, please fill out this [form](https://docs.googl
 
 <figure>
     <a href="#">
-    <img class="img-author" src="assets/imgs/people/scholar.png" alt="Sebastian Zezulka"/></a>
+    <img class="img-author" src="https://correlcms-directus-storage.fra1.cdn.digitaloceanspaces.com//8ec02949-1c45-49ef-a389-ea1797df6875.webp" alt="Sebastian Zezulka"/></a>
     <b><br><a href="#" class="text-main">Sebastian Zezulka</a>
     <br>2023 - 2024
     <br>Organizing Committee</b>
@@ -109,4 +111,5 @@ If you would like to give a talk, please fill out this [form](https://docs.googl
 
 ## **Contact** {#contact}
 
-Contact the organizers either by MvL6 slack, Mattermost, email. If you have any good ideas or suggestions please let us know through this [form](https://docs.google.com/forms/d/e/1FAIpQLSd5cZkGq7rtz3QQUTtAGGkOYXzYcU6O4y3JtsNXovB8jJXbvw/viewform)!
+Contact the organizers either by Slack (MvL6), Mattermost (MPI-IS), or email. 
+If you have any ideas or suggestions, please let us know through this [form](https://docs.google.com/forms/d/e/1FAIpQLSd5cZkGq7rtz3QQUTtAGGkOYXzYcU6O4y3JtsNXovB8jJXbvw/viewform)!
