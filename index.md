@@ -18,8 +18,8 @@ The following schedule is tentative:
 
 |    **Date**    | **Topic**                                                      | **Speaker/Presenter**                          | **Location**                                         |
 | -------------: | :------------------------------------------------------------- | :--------------------------------------------- | :--------------------------------------------------- |
-|   21/02, 17:15 | TBD                                                            | TBD                                            | MPI-IS (Max-Planck-Ring 4, Lecture Hall)             |
-|   21/02, 17:00 | TBD                                                            | TBD                                            | MPI-IS (Max-Planck-Ring 4, Lecture Hall)             |
+|   07/02, 17:15 | TBD                                                            | TBD                                            | AI Center (MvL6 Lecture Hall)                        |
+|   07/02, 17:00 | TBD                                                            | TBD                                            | AI Center (MvL6 Lecture Hall)                        |
 |   24/01, 17:15 | TBD                                                            | TBD                                            | AI Center (MvL6 Lecture Hall)                        |
 |   24/01, 17:00 | Friday Talks 2.0 Relaunch Remarks                              | [Tim Xiao](https://timx.me)                    | AI Center (MvL6 Lecture Hall)                        |
 
