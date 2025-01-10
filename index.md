@@ -23,6 +23,15 @@ The following schedule is tentative:
 |   24/01, 17:15 | TBD                                                            | TBD                                            | AI Center (MvL6 Lecture Hall)                        |
 |   24/01, 17:00 | Friday Talks 2.0 Relaunch Remarks                              | [Tim Xiao](https://timx.me)                    | AI Center (MvL6 Lecture Hall)                        |
 
+
+---
+
+## **Call for Talks** {#call}
+
+We invite all AI researchers in Tübingen to share their recent work in this 10 mins Friday Talk series!
+
+If you would like to give a talk, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSe5jIJy-v0jmO9iDzAszIuvPcpmc0khMxwRCTPEgjUm_zcAsg/viewform).
+
 ---
 
 ## **Organizers** {#organizers}
@@ -95,14 +104,6 @@ The following schedule is tentative:
 
 
 </div>
-
----
-
-## **Call for Talks** {#call}
-
-We invite all AI researchers in Tübingen to share their recent work in this 10 mins Friday Talk series!
-
-If you would like to give a talk, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSe5jIJy-v0jmO9iDzAszIuvPcpmc0khMxwRCTPEgjUm_zcAsg/viewform).
 
 ---
 
