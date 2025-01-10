@@ -2,122 +2,110 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
-
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+Do you know that Tübingen has more than **60 research groups** working in the field of AI?
+Do you have a research idea that would like to share with all the local AI researchers?
+Do you want to find out what your colleague next door is working on?
+Come to Friday Talk！
 
 
-### Definition lists can be used with HTML syntax.
+---
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+## **Schedule** {#schedule}
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
+The following schedule is tentative:
 
-```
-The final element.
-```
+### Year 2025
+
+|    **Date**    | **Topic**                                                      | **Speaker/Presenter**                          | **Location**                                         |
+| -------------: | :------------------------------------------------------------- | :--------------------------------------------- | :--------------------------------------------------- |
+|   21/02, 17:15 | TBD                                                            | TBD                                            | MPI-IS (Max-Planck-Ring 4, Lecture Hall)             |
+|   21/02, 17:00 | TBD                                                            | TBD                                            | MPI-IS (Max-Planck-Ring 4, Lecture Hall)             |
+|   24/01, 17:15 | TBD                                                            | TBD                                            | AI Center (MvL6 Lecture Hall)                        |
+|   24/01, 17:00 | Friday Talks 2.0 Relaunch Remarks                              | [Tim Xiao](https://timx.me)                    | AI Center (MvL6 Lecture Hall)                        |
+
+---
+
+## **Organizers** {#organizers}
+
+<div class="container">
+
+<figure>
+    <a href="https://timx.me">
+    <img class="img-author" src="https://timx.me/assets/img/prof_pic.jpg" alt="Tim Xiao"/></a>
+    <b><br><a href="https://timx.me" class="text-main">Tim Xiao</a>
+    <br>2025 -
+    <br>Organizing Committee</b>
+</figure>
+
+<figure>
+	<a href="https://jzenn.github.io">
+    <img class="img-author" src="https://jzenn.github.io/assets/images/bio-photo-j.jpg" alt="Johannes Zenn"/></a>
+    <b><br><a href="https://jzenn.github.io" class="text-main">Johannes Zenn</a>
+    <br>2025 -
+    <br>Organizing Committee</b>
+</figure>
+    
+<figure>
+    <a href="https://ei.is.mpg.de/person/zqiu">
+    <img class="img-author" src="https://ei.is.mpg.de/uploads/employee/image/8148/imresizer-1731174769407.jpg" alt="Zeju Qiu"/></a>
+    <b><br><a href="https://ei.is.mpg.de/person/zqiu" class="text-main">Zeju Qiu</a>
+    <br>2025 -
+    <br>Organizing Committee</b>
+</figure>
+
+<!-- <figure>
+    <a href="#">
+    <img class="img-author" src="assets/imgs/people/scholar.png" alt="You?"/></a>
+    <b><br><a href="#" class="text-main">You?</a>
+    <br>2025 -
+    <br>Helping out anything!</b>
+</figure> -->
+</div>
+
+---
+
+## **Past Organizers** {#past-organizers}
+
+<div class="container">
+
+<figure>
+    <a href="#">
+    <img class="img-author" src="assets/imgs/people/scholar.png" alt="Sebastian Zezulka"/></a>
+    <b><br><a href="#" class="text-main">Sebastian Zezulka</a>
+    <br>2023 - 2024
+    <br>Organizing Committee</b>
+</figure>
+
+<figure>
+    <a href="https://ninaeffenberger.github.io">
+    <img class="img-author" src="https://ninaeffenberger.github.io/assets/img/prof_pic-800.webp" alt="Nina Effenberger"/></a>
+    <b><br><a href="https://ninaeffenberger.github.io" class="text-main">Nina Effenberger</a>
+    <br>2022 - 2024
+    <br>Organizing Committee</b>
+</figure>
+
+<figure>
+    <a href="https://fm.ls/christian-frohlich">
+    <img class="img-author" src="https://fm.ls/files/fmls/files/chris1.jpg" alt="Christian Fröhlich"/></a>
+    <b><br><a href="https://fm.ls/christian-frohlich" class="text-main">Christian Fröhlich</a>
+    <br>2022 - 2024
+    <br>Organizing Committee</b>
+</figure>
+
+
+
+</div>
+
+---
+
+## **Call for Talks** {#call}
+
+We invite all AI researchers in Tübingen to share their recent work in this 10 mins Friday Talk series!
+
+If you would like to give a talk, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSe5jIJy-v0jmO9iDzAszIuvPcpmc0khMxwRCTPEgjUm_zcAsg/viewform).
+
+---
+
+## **Contact** {#contact}
+
+Contact the organizers either by MvL6 slack, Mattermost, email. If you have any good ideas or suggestions please let us know through this [form](https://docs.google.com/forms/d/e/1FAIpQLSd5cZkGq7rtz3QQUTtAGGkOYXzYcU6O4y3JtsNXovB8jJXbvw/viewform)!

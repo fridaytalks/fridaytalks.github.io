@@ -1,4 +1,84 @@
 ---
 ---
 
-@import 'jekyll-theme-cayman';
+@import "jekyll-theme-cayman";
+
+.main-content ul {
+  list-style: disc;
+  padding: 0 0 0 1.5em;
+}
+
+.main-content .text-main {
+  color: #159957;
+}
+
+.main-content a {
+  color: #159957;
+  display: inline-block;
+}
+
+figure {
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  flex: 1;
+  margin: 0;
+  align-items: center;
+}
+
+.btn.btn-transparent {
+  color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(255, 255, 255, 0.08);
+  border-color: rgba(255, 255, 255, 0.2);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 0.3rem;
+  transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+}
+
+.btn.btn-transparent:hover {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 2em;
+}
+
+.img-author {
+  width: 190px;
+  height: 190px;
+  object-fit: cover;
+  border-radius: 50%;
+  filter: drop-shadow(0 0 0.75rem #000000);
+}
+
+.img-syns {
+  width: 32%;
+  height: 32%;
+  border-radius: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bio-text {
+  text-align: justify;
+  text-align-last: left;
+  padding-bottom: 4em;
+}
+
+.rounded-rect {
+  border-radius: 15px;
+}
+
+.best {
+  color: blue;
+}
