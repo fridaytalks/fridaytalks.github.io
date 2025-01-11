@@ -81,7 +81,7 @@ If you are **interested in the work of a colleague** you can **nominate** her or
 
 <figure>
     <a href="#">
-    <img class="img-author" src="https://correlcms-directus-storage.fra1.cdn.digitaloceanspaces.com//8ec02949-1c45-49ef-a389-ea1797df6875.webp" alt="Sebastian Zezulka"/></a>
+    <img class="img-author" src="https://www.correlaid.org/assets/8ec02949-1c45-49ef-a389-ea1797df6875.webp" alt="Sebastian Zezulka"/></a>
     <b><br><a href="#" class="text-main">Sebastian Zezulka</a>
     <br>2023 - 2024
     <br>Organizing Committee</b>
