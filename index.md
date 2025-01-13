@@ -35,7 +35,9 @@ In particular, **we aim to give overlooked ideas more visibility.**
 Therefore, we especially encourage the presentation of work that is *under submission* or has been previously *rejected*.
 
 
-If you would like to **give a talk**, please fill out this [form](https://docs.google.com/forms/d/e/1FAIpQLSe5jIJy-v0jmO9iDzAszIuvPcpmc0khMxwRCTPEgjUm_zcAsg/viewform), we will get back to you by email to confirm your slot.
+If you would like to **give a talk**, please fill out this [**form**](https://docs.google.com/forms/d/e/1FAIpQLSe5jIJy-v0jmO9iDzAszIuvPcpmc0khMxwRCTPEgjUm_zcAsg/viewform).
+
+We will get back to you by email to confirm your slot.
 In the form, you are asked to nominate a host for your talk, who will chair the session.
 This host can be anyone you know (e.g., your colleagues from your group), who are available on the day and will introduce you (in one sentence) to the audiences.
 If you cannot find an avaiable host, we will find one for you.
