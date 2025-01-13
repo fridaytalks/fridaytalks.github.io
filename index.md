@@ -28,6 +28,8 @@ The following schedule is tentative:
 
 ## **Call for Talks** {#call}
 
+If you would like to **give a talk**, please fill out this [**form**](https://docs.google.com/forms/d/e/1FAIpQLSe5jIJy-v0jmO9iDzAszIuvPcpmc0khMxwRCTPEgjUm_zcAsg/viewform).
+
 We invite all AI researchers in Tübingen to share their recent work in the Friday Talks!
 Every other Friday, we will host two 10-minute talks at 5 pm, either at the AI Center (Maria-von-Linden-Straße 6, Lecture Hall) or at MPI-IS (Max-Planck-Ring 4, Lecture Hall).
 Any topic related to AI research is welcome for presentation.
@@ -35,7 +37,6 @@ In particular, **we aim to give overlooked ideas more visibility.**
 Therefore, we especially encourage the presentation of work that is *under submission* or has been previously *rejected*.
 
 
-If you would like to **give a talk**, please fill out this [**form**](https://docs.google.com/forms/d/e/1FAIpQLSe5jIJy-v0jmO9iDzAszIuvPcpmc0khMxwRCTPEgjUm_zcAsg/viewform).
 
 We will get back to you by email to confirm your slot.
 In the form, you are asked to nominate a host for your talk, who will chair the session.
