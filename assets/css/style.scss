@@ -82,3 +82,15 @@ figure {
 .best {
   color: blue;
 }
+
+/* Default style: Show both icon and text */
+.back-to-top span {
+  display: inline;
+}
+
+/* Responsive style: Hide the text on smaller screens */
+@media (max-width: 768px) { /* Adjust the max-width as needed */
+  .back-to-top span {
+    display: none;
+  }
+}

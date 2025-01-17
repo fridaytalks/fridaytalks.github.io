@@ -16,19 +16,21 @@ The following schedule is tentative:
 
 ### Year 2025
 
-|    **Date**    | **Topic**                                                      | **Speaker/Presenter**                          | **Location**                                         |
-| -------------: | :------------------------------------------------------------- | :--------------------------------------------- | :--------------------------------------------------- |
-|   07/02, 17:15 | TBD                                                            | TBD                                            | AI Center (MvL6 Lecture Hall)                        |
-|   07/02, 17:00 | TBD                                                            | TBD                                            | AI Center (MvL6 Lecture Hall)                        |
-|   24/01, 17:15 | TBD                                                            | TBD                                            | AI Center (MvL6 Lecture Hall)                        |
-|   24/01, 17:00 | Friday Talks 2.0 Relaunch Remarks                              | [Tim Xiao](https://timx.me)                    | AI Center (MvL6 Lecture Hall)                        |
+|    **Date**    | **Topic**                                                                                         | **Speaker/Presenter**                                           | **Location**                                         |
+| -------------: | :------------------------------------------------------------------------------------------------ | :-------------------------------------------------------------- | :--------------------------------------------------- |
+|   21/02, 17:15 | TBD                                                                                               | TBD                                                             | MPI-IS (Max-Planck-Ring 4, Lecture Hall)             |
+|   21/02, 17:00 | TBD                                                                                               | TBD                                                             | MPI-IS (Max-Planck-Ring 4, Lecture Hall)             |
+|   07/02, 17:15 | TBD                                                                                               | TBD                                                             | AI Center (MvL6, Lecture Hall)                       |
+|   07/02, 17:00 | TBD                                                                                               | TBD                                                             | AI Center (MvL6, Lecture Hall)                       |
+|   24/01, 17:15 | Optimal Multi-Objective Learn-to-Defer: Possibility, Complexity, and a Post-Processing Framework  | [Mohammad-Amin Charusaie](https://charusaie.github.io)          | AI Center (MvL6, Lecture Hall)                       |
+|   24/01, 17:00 | Friday Talks Relaunch Remarks                                                                     | [Tim Xiao](https://timx.me)                                     | AI Center (MvL6, Lecture Hall)                       |
 
 
 ---
 
 ## **Call for Talks** {#call}
 
-If you would like to **give a talk**, please fill out this [**form**](https://docs.google.com/forms/d/e/1FAIpQLSe5jIJy-v0jmO9iDzAszIuvPcpmc0khMxwRCTPEgjUm_zcAsg/viewform).
+If you would like to **give a talk**, please find a free slot above and fill out this [**form**](https://docs.google.com/forms/d/e/1FAIpQLSe5jIJy-v0jmO9iDzAszIuvPcpmc0khMxwRCTPEgjUm_zcAsg/viewform).
 
 We invite all AI researchers in Tübingen to share their recent work in the Friday Talks!
 Every other Friday, we will host two 10-minute talks at 5 pm, either at the AI Center (Maria-von-Linden-Straße 6, Lecture Hall) or at MPI-IS (Max-Planck-Ring 4, Lecture Hall).
@@ -50,31 +52,80 @@ If you are **interested in the work of a colleague** you can **nominate** her or
 
 ## **Organizers** {#organizers}
 
-<div class="container">
-
-<figure>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+  <figure class="text-center">
     <a href="https://timx.me">
-    <img class="img-author" src="https://timx.me/assets/img/prof_pic.jpg" alt="Tim Xiao"/></a>
-    <b><br><a href="https://timx.me" class="text-main">Tim Xiao</a>
-    <br>2025 -
-    <br>Organizing Committee</b>
-</figure>
+      <img
+        class="w-36 h-36 rounded-full mx-auto object-cover"
+        src="https://timx.me/assets/img/prof_pic.jpg"
+        alt="Tim Xiao"
+      />
+    </a>
+    <b>
+      <br />
+      <a href="https://timx.me" class="text-primary hover:underline">Tim Xiao</a>
+      <br />
+      2025 -
+      <br />
+      Organizing Committee
+    </b>
+  </figure>
 
-<figure>
-	<a href="https://jzenn.github.io">
-    <img class="img-author" src="https://jzenn.github.io/assets/images/bio-photo-j.jpg" alt="Johannes Zenn"/></a>
-    <b><br><a href="https://jzenn.github.io" class="text-main">Johannes Zenn</a>
-    <br>2025 -
-    <br>Organizing Committee</b>
-</figure>
-    
-<figure>
+  <figure class="text-center">
+    <a href="https://jzenn.github.io">
+      <img
+        class="w-36 h-36 rounded-full mx-auto object-cover"
+        src="https://jzenn.github.io/assets/images/bio-photo-j.jpg"
+        alt="Johannes Zenn"
+      />
+    </a>
+    <b>
+      <br />
+      <a href="https://jzenn.github.io" class="text-primary hover:underline">Johannes Zenn</a>
+      <br />
+      2025 -
+      <br />
+      Organizing Committee
+    </b>
+  </figure>
+
+  <figure class="text-center">
     <a href="https://ei.is.mpg.de/person/zqiu">
-    <img class="img-author" src="https://ei.is.mpg.de/uploads/employee/image/8148/imresizer-1731174769407.jpg" alt="Zeju Qiu"/></a>
-    <b><br><a href="https://ei.is.mpg.de/person/zqiu" class="text-main">Zeju Qiu</a>
-    <br>2025 -
-    <br>Organizing Committee</b>
-</figure>
+      <img
+        class="w-36 h-36 rounded-full mx-auto object-cover"
+        src="https://ei.is.mpg.de/uploads/employee/image/8148/imresizer-1731174769407.jpg"
+        alt="Zeju Qiu"
+      />
+    </a>
+    <b>
+      <br />
+      <a href="https://ei.is.mpg.de/person/zqiu" class="text-primary hover:underline">Zeju Qiu</a>
+      <br />
+      2025 -
+      <br />
+      Organizing Committee
+    </b>
+  </figure>
+
+  <figure class="text-center">
+    <a href="https://www.mlsustainableenergy.com/people/kibidi-neocosmos/">
+      <img
+        class="w-36 h-36 rounded-full mx-auto object-cover"
+        src="https://www.mlsustainableenergy.com/people/kibidi-neocosmos/avatar_hu1109fe9225abe29db7b8d1b94ad5951f_1270024_270x270_fill_q75_lanczos_center.jpg"
+        alt="Kibidi Neocosmos"
+      />
+    </a>
+    <b>
+      <br />
+      <a href="https://www.mlsustainableenergy.com/people/kibidi-neocosmos/" class="text-primary hover:underline">Kibidi Neocosmos</a>
+      <br />
+      2023 -
+      <br />
+      (Special Edition) Failure Friday Organizer
+    </b>
+  </figure>
+</div>
+
 
 <!-- <figure>
     <a href="#">
@@ -83,41 +134,66 @@ If you are **interested in the work of a colleague** you can **nominate** her or
     <br>2025 -
     <br>Helping out anything!</b>
 </figure> -->
-</div>
-
 ---
 
 ## **Past Organizers** {#past-organizers}
 
-<div class="container">
-
-<figure>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
+  <figure class="text-center">
     <a href="#">
-    <img class="img-author" src="https://www.correlaid.org/assets/8ec02949-1c45-49ef-a389-ea1797df6875.webp" alt="Sebastian Zezulka"/></a>
-    <b><br><a href="#" class="text-main">Sebastian Zezulka</a>
-    <br>2023 - 2024
-    <br>Organizing Committee</b>
-</figure>
+      <img
+        class="w-36 h-36 rounded-full mx-auto object-cover"
+        src="assets/imgs/people/scholar.png"
+        alt="Sebastian Zezulka"
+      />
+    </a>
+    <b>
+      <br />
+      <a href="#" class="text-primary hover:underline">Sebastian Zezulka</a>
+      <br />
+      2023 - 2024
+      <br />
+      Organizing Committee
+    </b>
+  </figure>
 
-<figure>
+  <figure class="text-center">
     <a href="https://ninaeffenberger.github.io">
-    <img class="img-author" src="https://ninaeffenberger.github.io/assets/img/prof_pic-800.webp" alt="Nina Effenberger"/></a>
-    <b><br><a href="https://ninaeffenberger.github.io" class="text-main">Nina Effenberger</a>
-    <br>2022 - 2024
-    <br>Organizing Committee</b>
-</figure>
+      <img
+        class="w-36 h-36 rounded-full mx-auto object-cover"
+        src="https://ninaeffenberger.github.io/assets/img/prof_pic.png"
+        alt="Nina Effenberger"
+      />
+    </a>
+    <b>
+      <br />
+      <a href="https://ninaeffenberger.github.io" class="text-primary hover:underline">Nina Effenberger</a>
+      <br />
+      2022 - 2024
+      <br />
+      Organizing Committee
+    </b>
+  </figure>
 
-<figure>
+  <figure class="text-center">
     <a href="https://fm.ls/christian-frohlich">
-    <img class="img-author" src="https://fm.ls/files/fmls/files/chris1.jpg" alt="Christian Fröhlich"/></a>
-    <b><br><a href="https://fm.ls/christian-frohlich" class="text-main">Christian Fröhlich</a>
-    <br>2022 - 2024
-    <br>Organizing Committee</b>
-</figure>
-
-
-
+      <img
+        class="w-36 h-36 rounded-full mx-auto object-cover"
+        src="https://fm.ls/files/fmls/files/chris1.jpg"
+        alt="Christian Fröhlich"
+      />
+    </a>
+    <b>
+      <br />
+      <a href="https://fm.ls/christian-frohlich" class="text-primary hover:underline">Christian Fröhlich</a>
+      <br />
+      2022 - 2024
+      <br />
+      Organizing Committee
+    </b>
+  </figure>
 </div>
+
 
 ---
 
