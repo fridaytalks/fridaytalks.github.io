@@ -192,6 +192,25 @@ If you are **interested in the work of a colleague** you can **nominate** her or
       Organizing Committee
     </b>
   </figure>
+
+
+  <figure class="text-center">
+    <a href="https://pnkraemer.github.io">
+      <img
+        class="w-36 h-36 rounded-full mx-auto object-cover"
+        src="https://pnkraemer.github.io/images/portrait_2024.jpeg"
+        alt="Nico Krämer"
+      />
+    </a>
+    <b>
+      <br />
+      <a href="https://pnkraemer.github.io" class="text-primary hover:underline">Nico Krämer</a>
+      <br />
+      Before 2022
+      <br />
+      Organizing Committee
+    </b>
+  </figure>
 </div>
 
 
