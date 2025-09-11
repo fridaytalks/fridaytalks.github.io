@@ -3,6 +3,10 @@
 
 @import "jekyll-theme-cayman";
 
+html {
+  scroll-padding-top: 5rem;
+}
+
 .main-content ul {
   list-style: disc;
   padding: 0 0 0 1.5em;
