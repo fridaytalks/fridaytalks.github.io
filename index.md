@@ -14,7 +14,6 @@ Join us at Friday Talks!
 
 The following schedule is tentative:
 
-### Year 2025
 
 <!-- |                 18/04, 17:15 | LLMs vs. Torch 1.5: Why Your Code Assistant Can't Keep Up                                                             | [Diganta Misra](https://digantamisra98.github.io)                                                                                     | MPI-IS (Max-Planck-Ring 4, Lecture Hall)             |                                                                                                                                                                                                            |
 |                 18/04, 17:00 | Climate data selection for multi-decadal wind power forecasts                                                         | [Luca Schmidt](https://www.mlsustainableenergy.com/people/luca-schmidt/)                                                              | MPI-IS (Max-Planck-Ring 4, Lecture Hall)             |                                                                                                                                                                                                            | -->
