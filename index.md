@@ -164,6 +164,24 @@ If you are **interested in the work of a colleague** you can **nominate** her or
   </figure>
 
   <figure class="text-center">
+    <a href="https://hertie.ai/machine-learning/team/members/shreyash-garg">
+      <img
+        class="w-36 h-36 rounded-full mx-auto object-cover"
+        src="https://drive.google.com/file/d/1uCb92JHZV4uvVcvZCPTFjaSlGblPI112/view?usp=sharing"
+        alt="Shreyash Garg"
+      />
+    </a>
+    <b>
+      <br />
+      <a href="https://hertie.ai/machine-learning/team/members/shreyash-garg" class="text-primary hover:underline">Shreyash Garg</a>
+      <br />
+      2026 -
+      <br />
+      Organizing Committee
+    </b>
+  </figure>
+
+  <figure class="text-center">
     <a href="https://www.mlsustainableenergy.com/people/kibidi-neocosmos/">
       <img
         class="w-36 h-36 rounded-full mx-auto object-cover"
