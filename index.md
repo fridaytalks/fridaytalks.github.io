@@ -167,7 +167,7 @@ If you are **interested in the work of a colleague** you can **nominate** her or
     <a href="https://hertie.ai/machine-learning/team/members/shreyash-garg">
       <img
         class="w-36 h-36 rounded-full mx-auto object-cover"
-        src="https://drive.google.com/file/d/1uCb92JHZV4uvVcvZCPTFjaSlGblPI112/view?usp=sharing"
+        src="assets/media for webpage/shreyash_garg.png"
         alt="Shreyash Garg"
       />
     </a>
