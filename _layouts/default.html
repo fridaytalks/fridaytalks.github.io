@@ -1,150 +1,239 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: 'en-US' }}" data-theme="light">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <meta charset="UTF-8" />
-
-    {% seo %}
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      rel="preload"
-      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"
-      as="style"
-      type="text/css"
-      crossorigin
-    />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#157878" />
+    <meta name="theme-color" content="#0f7e7c" />
     <meta
       name="apple-mobile-web-app-status-bar-style"
       content="black-translucent"
+    />
+
+    {% seo %}
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300..900;1,400&display=swap"
+      rel="stylesheet"
     />
     <link
       rel="stylesheet"
       href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}"
     />
+
     <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
-      rel="stylesheet"
-      type="text/css"
+      rel="icon"
+      type="image/svg+xml"
+      href="{{ '/assets/imgs/favicon.svg' | relative_url }}"
     />
-    <script src="https://cdn.tailwindcss.com"></script>
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="{{ '/assets/imgs/favicon-32.png' | relative_url }}"
     />
+    <link
+      rel="apple-touch-icon"
+      href="{{ '/assets/imgs/apple-touch-icon.png' | relative_url }}"
+    />
+
     {% include head-custom.html %}
   </head>
-  <body>
-    
-    <nav
-      class="flex navbar fixed header-bg-color justify-between text-white font-black px-8 z-50"
-      role="navigation"
-    >
-      <a href="" class="back-to-top"><i class="fa-solid fa-chevron-up"></i> &nbsp;&nbsp; <span>Back to Top</span> &nbsp;</a>
-      <div class="flex gap-8">
-        <a href="#schedule" target="_self">Schedule</a>
-        <a href="#call" target="_self">Call for Talks</a>
-        <a href="#organizers" target="_self">Organizers</a>
+  <body id="top">
+    <a class="skip-link" href="#content">Skip to the content</a>
+
+    {% capture logo_svg %}<svg viewBox="0 0 512 512" aria-hidden="true" focusable="false"><rect width="512" height="512" rx="112" ry="112" fill="#0f7e7c"/><path d="M256,424 L110,180 A170,170 0 0 1 402,180 Z" fill="#f2ecd8"/><path d="M110,180 A170,170 0 0 1 402,180" fill="none" stroke="#cab198" stroke-width="34" stroke-linecap="round"/><circle cx="212" cy="212" r="26" fill="#be353e"/><circle cx="304" cy="222" r="22" fill="#be353e"/><circle cx="256" cy="312" r="21" fill="#be353e"/></svg>{% endcapture %}
+
+    <nav class="site-nav" role="navigation" aria-label="Main">
+      <div class="nav-inner">
+        <a class="nav-brand" href="#top">
+          {{ logo_svg }}<span>FridayTalks</span>
+        </a>
+        <div class="nav-links">
+          <a href="#schedule">Schedule</a>
+          <a href="#call">Call for Talks</a>
+          <a href="#organizers">Organizers</a>
+          <a
+            class="nav-yt"
+            href="https://www.youtube.com/@FridayTalksTuebingen"
+            target="_blank"
+            rel="noopener"
+            aria-label="FridayTalks on YouTube"
+            title="Watch past talks on YouTube"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M23.5 6.2a3 3 0 0 0-2.12-2.12C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.53A3 3 0 0 0 .5 6.2C0 8.08 0 12 0 12s0 3.92.5 5.8a3 3 0 0 0 2.12 2.12c1.88.53 9.38.53 9.38.53s7.5 0 9.38-.53a3 3 0 0 0 2.12-2.12C24 15.92 24 12 24 12s0-3.92-.5-5.8ZM9.6 15.57V8.43L15.82 12 9.6 15.57Z"
+              />
+            </svg>
+          </a>
+        </div>
       </div>
     </nav>
-    <!-- <a id="skip-to-content" href="#content">Skip to the content.</a> -->
-    
-    
 
-    <header
-      class="flex flex-col items-center page-header gap-2 pt-28 pb-4"
-      role="banner"
-    >
-      <h1 class="project-name">
-        {{ page.title | default: site.title | default:
-        site.github.repository_name }}
-      </h1>
-      <h2 class="project-tagline mb-0">
-        {{ page.description | default: site.description | default:
-        site.github.project_tagline }}
-      </h2>
-      <h3 class="mt-4">
-        <b>When?</b> 5pm every other Friday
-      </h3>
-      <h3 class="">
-        <b>Where?</b> Alternating between 
-        <i>AI Center (Maria-von-Linden-Straße 6, Lecture Hall)</i> 
-        and 
-        <i>MPI-IS (Max-Planck-Ring 4, Lecture Hall)</i>
-        and 
-        <i>Cyber Valley 1 (MvL1, Lecture Hall)</i>
-      </h3>
-      <div class="flex gap-2 mt-1">
-        <a
-          href="#call"
-          class="btn btn-transparent m-0"
-          target="_self"
-          >I want to present my work!</a
-        >
-        <a
-          href="https://www.youtube.com/@FridayTalksTuebingen"
-          class="btn btn-transparent m-0 flex items-center justify-center"
-          target="_blank"
-          ><img src="assets/imgs/yt_logo_mono_dark.png" alt="YouTube" class="h-5"></a
-        >
-      </div>
-      {% if site.github.is_project_page %}
-      <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %} {% if site.show_downloads %}
-      <a href="{{ site.github.zip_url }}" class="btn">Download .zip</a>
-      <a href="{{ site.github.tar_url }}" class="btn">Download .tar.gz</a>
-      {% endif %}
-
-      <!-- <div class="flex flex-col gap-2 mt-4">
-        <div class="text-sm">Follow us:</div>
-        <div class="flex gap-6 items-center text-3xl justify-center">
-          <a href="mailto:creativity.ai.neurips@gmail.com"
-            ><i class="fa-solid fa-envelope"></i
-          ></a>
-          <a href="https://x.com/creativityAI_24"
-            ><i class="fa-brands fa-twitter"></i
-          ></a>
-          <a href="https://discord.gg/UUwJ4ZyNrd"
-            ><i class="fa-brands fa-discord"></i
-          ></a>
+    <header class="hero" role="banner">
+      <div class="hero-inner">
+        <div class="hero-support">
+          <span>supported by</span>
+          <img
+            src="{{ '/assets/imgs/tuebingen-ai-center.png' | relative_url }}"
+            alt="Tübingen AI Center"
+          />
         </div>
-      </div>
 
-      <div class="flex flex-col gap-2 mt-2">
-        <div class="text-md">
-          Contact us at:
-          <a href="mailto:creativity.ai.neurips@gmail.com"
-            >creativity.ai.neurips@gmail.com</a
+        <div class="hero-copy">
+          <h1 class="hero-title">{{ page.title | default: site.title | default: site.github.repository_name | replace: ' @ Tübingen', '' | replace: 'Talks', '<span class="wordmark-tail">Talks</span>' }}</h1>
+          <p class="hero-tagline">
+            {{ page.description | default: site.description | default: site.github.project_tagline }}
+          </p>
+        </div>
+
+        <div class="hero-actions">
+          <a
+            class="btn btn-primary"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSe5jIJy-v0jmO9iDzAszIuvPcpmc0khMxwRCTPEgjUm_zcAsg/viewform"
+            target="_blank"
+            rel="noopener"
+            >I want to present my work!</a
           >
+          <a
+            class="btn btn-ghost"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSemwF-lT7CSTaP-AR2gsB_XpkgrYkxCo_cUidL-RgH67JM3Pw/viewform?usp=dialog"
+            target="_blank"
+            rel="noopener"
+            >I want to nominate a colleague!</a
+          >
+          <a
+            class="btn btn-ghost"
+            href="https://www.youtube.com/@FridayTalksTuebingen"
+            target="_blank"
+            rel="noopener"
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.12-2.12C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.53A3 3 0 0 0 .5 6.2C0 8.08 0 12 0 12s0 3.92.5 5.8a3 3 0 0 0 2.12 2.12c1.88.53 9.38.53 9.38.53s7.5 0 9.38-.53a3 3 0 0 0 2.12-2.12C24 15.92 24 12 24 12s0-3.92-.5-5.8ZM9.6 15.57V8.43L15.82 12 9.6 15.57Z"/></svg>
+            Past talks
+          </a>
         </div>
-      </div> -->
+
+        <div class="hero-card">
+          <p class="hero-card-lead">
+            Once a month, <strong>Friday at 5&nbsp;pm</strong>
+          </p>
+          <p class="hero-card-sub">
+            Join for <strong>talks</strong> and <strong>discussions</strong>
+            over <strong>pizza</strong>!
+          </p>
+          <p class="hero-card-where">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-5.5 7-11a7 7 0 1 0-14 0c0 5.5 7 11 7 11Z"/><circle cx="12" cy="10" r="2.5"/></svg>
+            <span>Maria-von-Linden-Straße&nbsp;1</span>
+          </p>
+        </div>
+
+        <!-- Upcoming dates: keep in sync with the poster. -->
+        <h2 class="hero-dates-label">Next FridayTalks</h2>
+        <ul class="dates">
+          <li class="date-card">
+            <span class="day">21</span>
+            <span><span class="month">August</span><span class="weekday">Friday · 5 pm</span></span>
+          </li>
+          <li class="date-card">
+            <span class="day">18</span>
+            <span><span class="month">September</span><span class="weekday">Friday · 5 pm</span></span>
+          </li>
+          <li class="date-card">
+            <span class="day">30</span>
+            <span><span class="month">October</span><span class="weekday">Friday · 5 pm</span></span>
+          </li>
+        </ul>
+      </div>
     </header>
 
-    <main id="content" class="main-content max-w-7xl" role="main">
+    <main id="content" class="main-content" role="main">
       {{ content }}
-
-      <footer class="flex flex-col gap-2 site-footer">
-        <div class="flex">
-          <!-- {% if site.github.is_project_page %}
-          <div class="site-footer-owner"></div>
-            <a href="{{ site.github.repository_url }}"
-              >{{ site.github.repository_name }}</a
-            >
-            is maintained by
-            <a href="{{ site.github.owner_url }}"
-              >{{ site.github.owner_name }}</a
-            >.
-          </div>
-          {% endif %} -->
-          <div class="site-footer-credits">
-            This page was generated by
-            <a href="https://pages.github.com">GitHub Pages</a>.
-          </div>
-        </div>
-      </footer>
     </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span>Built with Jekyll and Claude, hosted on GitHub Pages.</span>
+        <ul class="footer-links">
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#call">Call for Talks</a></li>
+          <li><a href="#organizers">Organizers</a></li>
+          <li>
+            <a
+              href="https://www.youtube.com/@FridayTalksTuebingen"
+              target="_blank"
+              rel="noopener"
+              >YouTube</a
+            >
+          </li>
+          <li>
+            <a href="{{ '/assets/fridaytalks-poster.pdf' | relative_url }}"
+              >Poster</a
+            >
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <button class="to-top" type="button" aria-label="Back to top">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m6 15 6-6 6 6"/></svg>
+    </button>
+
+    <script>
+      (function () {
+        // Label schedule cells so they can stack into cards on small screens.
+        document.querySelectorAll(".table-wrap table").forEach(function (table) {
+          var heads = Array.prototype.map.call(
+            table.querySelectorAll("thead th"),
+            function (th) {
+              return th.textContent.trim();
+            }
+          );
+          table.querySelectorAll("tbody tr").forEach(function (row) {
+            Array.prototype.forEach.call(row.children, function (cell, i) {
+              if (heads[i]) cell.setAttribute("data-label", heads[i]);
+            });
+          });
+        });
+
+        var nav = document.querySelector(".site-nav");
+        var toTop = document.querySelector(".to-top");
+        var links = Array.prototype.slice.call(
+          document.querySelectorAll('.nav-links a[href^="#"]')
+        );
+        var sections = links
+          .map(function (a) {
+            return document.querySelector(a.getAttribute("href"));
+          })
+          .filter(Boolean);
+
+        function onScroll() {
+          var y = window.scrollY || window.pageYOffset;
+          nav.classList.toggle("is-stuck", y > 8);
+          toTop.classList.toggle("is-visible", y > 600);
+
+          var current = null;
+          for (var i = 0; i < sections.length; i++) {
+            if (sections[i].getBoundingClientRect().top <= 120) {
+              current = sections[i];
+            }
+          }
+          links.forEach(function (a) {
+            a.classList.toggle(
+              "is-active",
+              current !== null && a.getAttribute("href") === "#" + current.id
+            );
+          });
+        }
+
+        toTop.addEventListener("click", function () {
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        });
+
+        window.addEventListener("scroll", onScroll, { passive: true });
+        onScroll();
+      })();
+    </script>
   </body>
 </html>

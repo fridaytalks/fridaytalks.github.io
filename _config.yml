@@ -1,5 +1,10 @@
-title: Friday Talks @ Tübingen
+title: FridayTalks @ Tübingen
 description: A place to exchange your ideas with your Tübingen AI research community!
 show_downloads: False
 google_analytics:
 theme: jekyll-theme-cayman
+
+# Section anchors live on the <section> wrappers in index.md, so kramdown
+# should not also mint ids from the headings inside them.
+kramdown:
+  auto_ids: false

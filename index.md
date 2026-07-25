@@ -2,17 +2,18 @@
 layout: default
 ---
 
+<section class="section section-intro" markdown="1">
+
 Did you know there are more than **60 research groups** in Tübingen working in the field of AI?
 Do you have a research idea you'd like to share with local AI researchers?
 Are you curious about what your colleague next door is working on?
-Join us at Friday Talks!
+{: .lead }
 
+</section>
 
----
+<section class="section" id="schedule" markdown="1">
 
-## **Schedule** {#schedule}
-
-The following schedule is tentative:
+## Schedule
 
 
 <!-- |                 18/04, 17:15 | LLMs vs. Torch 1.5: Why Your Code Assistant Can't Keep Up                                                             | [Diganta Misra](https://digantamisra98.github.io)                                                                                     | MPI-IS (Max-Planck-Ring 4, Lecture Hall)             |                                                                                                                                                                                                            |
@@ -31,6 +32,8 @@ The following schedule is tentative:
 <!-- | (rescheduled)   07/02, 17:00 | *Speaker Unavailable*                                                                                                 | *Speaker Unavailable*                                                                                                                 | AI Center (MvL6, Lecture Hall)                       |                                                                                                                                                                                                            | -->
 
 ### Year 2026
+
+<div class="table-wrap" markdown="1">
 
 |    **Date**                  | **Topic**                                                                                                             | **Speaker/Presenter**                                                                                                                 | **Location**                                         | **Materials**                                                                                                                                                                                              |
 | ---------------------------: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -54,7 +57,14 @@ The following schedule is tentative:
 |                 16/01, 17:15 | TAPPA -- Tübingen AI PhD and PostDoc Assembly                                                                         | [Rabanus Derr](https://fm.ls/rabanus-derr)                                                                                            | Cyber Valley 1 (MvL1, Lecture Hall)                  |                                                                                                                                                                                                            |
 |                 16/01, 17:00 | Towards Autonomous Quantum Physics Research Using LLM Agents with Access to Intelligent Tools                         | [Sören Arlt](https://scholar.google.com/citations?user=wQuispcAAAAJ)                                                                  | Cyber Valley 1 (MvL1, Lecture Hall)                  |                                                                                                                                                                                                            | 
 
-### Year 2025
+</div>
+
+<p class="table-hint">Scroll the table sideways to see speakers, locations and materials.</p>
+
+<details class="year-toggle" markdown="1">
+<summary>Year 2025</summary>
+
+<div class="table-wrap" markdown="1">
 
 |    **Date**                  | **Topic**                                                                                                             | **Speaker/Presenter**                                                                                                                 | **Location**                                         | **Materials**                                                                                                                                                                                              |
 | ---------------------------: | :-------------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------------------------ | :--------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -87,215 +97,149 @@ The following schedule is tentative:
 |                 24/01, 17:00 | Friday Talks Relaunch Remarks                                                                                         | [Tim Xiao](https://timx.me)                                                                                                           | AI Center (MvL6, Lecture Hall)                       | [![Static Badge](https://img.shields.io/badge/slides-blue)](assets/slides/20250124_Tim.pdf)                                                                                                                |
 
 
----
+</div>
 
-## **Call for Talks** {#call}
+<p class="table-hint">Scroll the table sideways to see speakers, locations and materials.</p>
 
-If you would like to **give a talk**, please find a free slot above and fill out this [**form**](https://docs.google.com/forms/d/e/1FAIpQLSe5jIJy-v0jmO9iDzAszIuvPcpmc0khMxwRCTPEgjUm_zcAsg/viewform).
+</details>
 
-We invite all AI researchers in Tübingen to share their recent work in the Friday Talks!
-Every other Friday, we will host two 10-minute talks at 5 pm, either at the AI Center (Maria-von-Linden-Straße 6, Lecture Hall) or at MPI-IS (Max-Planck-Ring 4, Lecture Hall).
+</section>
+
+<section class="section" id="call" markdown="1">
+
+## Call for Talks
+
+We invite all AI researchers in Tübingen to share their recent work in the FridayTalks!
+Once a month, we host three 15-minute talks at 5 pm at Cyber Valley 1 (Maria-von-Linden-Straße 1, Lecture Hall).
 Any topic related to AI research is welcome for presentation.
 In particular, **we aim to give overlooked ideas more visibility.**
 Therefore, we especially encourage the presentation of work that is *under submission* or has been previously *rejected*.
 
+<div class="actions">
+  <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSe5jIJy-v0jmO9iDzAszIuvPcpmc0khMxwRCTPEgjUm_zcAsg/viewform" target="_blank" rel="noopener">I want to present my work!</a>
+  <a class="btn btn-ghost" href="https://docs.google.com/forms/d/e/1FAIpQLSemwF-lT7CSTaP-AR2gsB_XpkgrYkxCo_cUidL-RgH67JM3Pw/viewform?usp=dialog" target="_blank" rel="noopener">I want to nominate a colleague!</a>
+</div>
 
+</section>
 
-We will get back to you by email to confirm your slot.
-In the form, you are asked to nominate a host for your talk, who will chair the session.
-This host can be anyone you know (e.g., your colleagues from your group), who are available on the day and will introduce you (in one sentence) to the audiences.
-If you cannot find an avaiable host, we will find one for you.
+<section class="section" id="organizers" markdown="1">
 
+## Organizers
 
-If you are **interested in the work of a colleague** you can **nominate** her or him by filling out this [form](https://docs.google.com/forms/d/e/1FAIpQLSemwF-lT7CSTaP-AR2gsB_XpkgrYkxCo_cUidL-RgH67JM3Pw/viewform?usp=dialog), we will reach out to them.
-
----
-
-## **Organizers** {#organizers}
-
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
-  <figure class="text-center">
-    <a href="https://timx.me">
-      <img
-        class="w-36 h-36 rounded-full mx-auto object-cover"
-        src="https://timx.me/assets/img/prof_pic.jpg"
-        alt="Tim Xiao"
-      />
-    </a>
-    <b>
-      <br />
-      <a href="https://timx.me" class="text-primary hover:underline">Tim Xiao</a>
-      <br />
-      2025 -
-      <br />
-      Organizing Committee
-    </b>
+<div class="people">
+  <figure class="person">
+    <a href="https://jzenn.github.io"><img class="person-photo" src="https://jzenn.github.io/assets/images/bio-photo-j.jpg" alt="Johannes Zenn" loading="lazy" /></a>
+    <figcaption>
+      <a class="person-name" href="https://jzenn.github.io">Johannes Zenn</a>
+      <span class="person-years">2025 –</span>
+      <span class="person-role">Organizing Committee</span>
+      <span class="person-role">General Chair, Program Chair</span>
+    </figcaption>
   </figure>
-
-  <figure class="text-center">
-    <a href="https://jzenn.github.io">
-      <img
-        class="w-36 h-36 rounded-full mx-auto object-cover"
-        src="https://jzenn.github.io/assets/images/bio-photo-j.jpg"
-        alt="Johannes Zenn"
-      />
-    </a>
-    <b>
-      <br />
-      <a href="https://jzenn.github.io" class="text-primary hover:underline">Johannes Zenn</a>
-      <br />
-      2025 -
-      <br />
-      Organizing Committee
-    </b>
+  <figure class="person">
+    <a href="https://hertie.ai/machine-learning/team/members/shreyash-garg"><img class="person-photo" src="assets/media%20for%20webpage/shreyashg.jpg" alt="Shreyash Garg" loading="lazy" /></a>
+    <figcaption>
+      <a class="person-name" href="https://hertie.ai/machine-learning/team/members/shreyash-garg">Shreyash Garg</a>
+      <span class="person-years">2026 –</span>
+      <span class="person-role">Organizing Committee</span>
+      <span class="person-role">Communication Chair, Program Chair</span>
+    </figcaption>
   </figure>
-
-  <figure class="text-center">
-    <a href="https://ei.is.mpg.de/person/zqiu">
-      <img
-        class="w-36 h-36 rounded-full mx-auto object-cover"
-        src="https://ei.is.mpg.de/uploads/employee/image/8148/imresizer-1731174769407.jpg"
-        alt="Zeju Qiu"
-      />
-    </a>
-    <b>
-      <br />
-      <a href="https://ei.is.mpg.de/person/zqiu" class="text-primary hover:underline">Zeju Qiu</a>
-      <br />
-      2025 -
-      <br />
-      Organizing Committee
-    </b>
+  <figure class="person">
+    <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/"><img class="person-photo" src="https://uni-tuebingen.de/fileadmin/_processed_/3/5/csm_Paul_Fischer_2025_603d3641dd.webp" alt="Paul Fischer" loading="lazy" /></a>
+    <figcaption>
+      <a class="person-name" href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/methoden-des-maschinellen-lernens/personen/">Paul Fischer</a>
+      <span class="person-years">2026 –</span>
+      <span class="person-role">Organizing Committee</span>
+      <span class="person-role">Sponsor Chair</span>
+    </figcaption>
   </figure>
-
-  <figure class="text-center">
-    <a href="https://hertie.ai/machine-learning/team/members/shreyash-garg">
-      <img
-        class="w-36 h-36 rounded-full mx-auto object-cover"
-        src="assets/media for webpage/shreyashg.jpg"
-        alt="Shreyash Garg"
-      />
-    </a>
-    <b>
-      <br />
-      <a href="https://hertie.ai/machine-learning/team/members/shreyash-garg" class="text-primary hover:underline">Shreyash Garg</a>
-      <br />
-      2026 -
-      <br />
-      Organizing Committee
-    </b>
+  <figure class="person">
+    <a href="https://institute-tue.ellis.eu/en/people/vmilovanovic"><img class="person-photo" src="https://institute-tue.ellis.eu/uploads/person/image/2968/thumb_ticker_lg_ph.jpg" alt="Vera Milovanovic" loading="lazy" /></a>
+    <figcaption>
+      <a class="person-name" href="https://institute-tue.ellis.eu/en/people/vmilovanovic">Vera Milovanovic</a>
+      <span class="person-years">2026 –</span>
+      <span class="person-role">Organizing Committee</span>
+      <span class="person-role">Program Chair</span>
+    </figcaption>
   </figure>
-
-  <figure class="text-center">
-    <a href="https://www.mlsustainableenergy.com/people/kibidi-neocosmos/">
-      <img
-        class="w-36 h-36 rounded-full mx-auto object-cover"
-        src="https://www.mlsustainableenergy.com/people/kibidi-neocosmos/avatar_hu1109fe9225abe29db7b8d1b94ad5951f_1270024_270x270_fill_q75_lanczos_center.jpg"
-        alt="Kibidi Neocosmos"
-      />
-    </a>
-    <b>
-      <br />
-      <a href="https://www.mlsustainableenergy.com/people/kibidi-neocosmos/" class="text-primary hover:underline">Kibidi Neocosmos</a>
-      <br />
-      2023 -
-      <br />
-      (Special Edition) Failure Friday Organizer
-    </b>
+  <figure class="person">
+    <a href="https://mm2676cam.github.io"><img class="person-photo" src="assets/imgs/people/scholar.png" alt="Matevz Matjasec" loading="lazy" /></a>
+    <figcaption>
+      <a class="person-name" href="https://mm2676cam.github.io">Matevz Matjasec</a>
+      <span class="person-years">2026 –</span>
+      <span class="person-role">Organizing Committee</span>
+    </figcaption>
   </figure>
 </div>
 
+<!-- Want to help out? Copy a <figure class="person"> block above and add yourself. -->
 
-<!-- <figure>
-    <a href="#">
-    <img class="img-author" src="assets/imgs/people/scholar.png" alt="You?"/></a>
-    <b><br><a href="#" class="text-main">You?</a>
-    <br>2025 -
-    <br>Helping out anything!</b>
-</figure> -->
----
+</section>
 
-## **Past Organizers** {#past-organizers}
+<section class="section" id="past-organizers" markdown="1">
 
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 p-4">
-  <figure class="text-center">
-    <a href="#">
-      <img
-        class="w-36 h-36 rounded-full mx-auto object-cover"
-        src="assets/imgs/people/scholar.png"
-        alt="Sebastian Zezulka"
-      />
-    </a>
-    <b>
-      <br />
-      <a href="#" class="text-primary hover:underline">Sebastian Zezulka</a>
-      <br />
-      2023 - 2024
-      <br />
-      Organizing Committee
-    </b>
+## Past Organizers
+
+<div class="people">
+  <figure class="person">
+    <a href="https://timx.me"><img class="person-photo" src="https://timx.me/assets/img/prof_pic.jpg" alt="Tim Xiao" loading="lazy" /></a>
+    <figcaption>
+      <a class="person-name" href="https://timx.me">Tim Xiao</a>
+      <span class="person-years">2025 – 2026</span>
+      <span class="person-role">Organizing Committee</span>
+      <span class="person-role">General Chair, Program Chair</span>
+    </figcaption>
   </figure>
-
-  <figure class="text-center">
-    <a href="https://ninaeffenberger.github.io">
-      <img
-        class="w-36 h-36 rounded-full mx-auto object-cover"
-        src="https://ninaeffenberger.github.io/assets/img/prof_pic.png"
-        alt="Nina Effenberger"
-      />
-    </a>
-    <b>
-      <br />
-      <a href="https://ninaeffenberger.github.io" class="text-primary hover:underline">Nina Effenberger</a>
-      <br />
-      2022 - 2024
-      <br />
-      Organizing Committee
-    </b>
+  <figure class="person">
+    <a href="https://ei.is.mpg.de/person/zqiu"><img class="person-photo" src="assets/imgs/people/scholar.png" alt="Zeju Qiu" loading="lazy" /></a>
+    <figcaption>
+      <a class="person-name" href="https://ei.is.mpg.de/person/zqiu">Zeju Qiu</a>
+      <span class="person-years">2025 – 2026</span>
+      <span class="person-role">Organizing Committee</span>
+    </figcaption>
   </figure>
-
-  <figure class="text-center">
-    <a href="https://fm.ls/christian-frohlich">
-      <img
-        class="w-36 h-36 rounded-full mx-auto object-cover"
-        src="https://fm.ls/files/fmls/files/chris1.jpg"
-        alt="Christian Fröhlich"
-      />
-    </a>
-    <b>
-      <br />
-      <a href="https://fm.ls/christian-frohlich" class="text-primary hover:underline">Christian Fröhlich</a>
-      <br />
-      2022 - 2024
-      <br />
-      Organizing Committee
-    </b>
+  <figure class="person">
+    <a href="https://www.mlsustainableenergy.com/people/kibidi-neocosmos/"><img class="person-photo" src="https://www.mlsustainableenergy.com/people/kibidi-neocosmos/avatar_hu1109fe9225abe29db7b8d1b94ad5951f_1270024_270x270_fill_q75_lanczos_center.jpg" alt="Kibidi Neocosmos" loading="lazy" /></a>
+    <figcaption>
+      <a class="person-name" href="https://www.mlsustainableenergy.com/people/kibidi-neocosmos/">Kibidi Neocosmos</a>
+      <span class="person-years">2023 – 2026</span>
+      <span class="person-role">Failure Friday Organizer</span>
+    </figcaption>
   </figure>
-
-
-  <figure class="text-center">
-    <a href="https://pnkraemer.github.io">
-      <img
-        class="w-36 h-36 rounded-full mx-auto object-cover"
-        src="https://pnkraemer.github.io/images/portrait_2024.jpeg"
-        alt="Nico Krämer"
-      />
-    </a>
-    <b>
-      <br />
-      <a href="https://pnkraemer.github.io" class="text-primary hover:underline">Nico Krämer</a>
-      <br />
-      Before 2022
-      <br />
-      Organizing Committee
-    </b>
+  <div class="people-break" aria-hidden="true"></div>
+  <figure class="person">
+    <a href="https://sezezulka.github.io"><img class="person-photo" src="https://sezezulka.github.io/images/2024-Profilbild-quadrat.jpg" alt="Sebastian Zezulka" loading="lazy" /></a>
+    <figcaption>
+      <a class="person-name" href="https://sezezulka.github.io">Sebastian Zezulka</a>
+      <span class="person-years">2023 – 2024</span>
+      <span class="person-role">Organizing Committee</span>
+    </figcaption>
+  </figure>
+  <figure class="person">
+    <a href="https://ninaeffenberger.github.io"><img class="person-photo" src="https://ninaeffenberger.github.io/assets/img/prof_pic.png" alt="Nina Effenberger" loading="lazy" /></a>
+    <figcaption>
+      <a class="person-name" href="https://ninaeffenberger.github.io">Nina Effenberger</a>
+      <span class="person-years">2022 – 2024</span>
+      <span class="person-role">Organizing Committee</span>
+    </figcaption>
+  </figure>
+  <figure class="person">
+    <a href="https://fm.ls/christian-frohlich"><img class="person-photo" src="https://fm.ls/files/fmls/files/chris1.jpg" alt="Christian Fröhlich" loading="lazy" /></a>
+    <figcaption>
+      <a class="person-name" href="https://fm.ls/christian-frohlich">Christian Fröhlich</a>
+      <span class="person-years">2022 – 2024</span>
+      <span class="person-role">Organizing Committee</span>
+    </figcaption>
+  </figure>
+  <figure class="person">
+    <a href="https://pnkraemer.github.io"><img class="person-photo" src="https://pnkraemer.github.io/images/portrait_2024.jpeg" alt="Nico Krämer" loading="lazy" /></a>
+    <figcaption>
+      <a class="person-name" href="https://pnkraemer.github.io">Nico Krämer</a>
+      <span class="person-years">Before 2022</span>
+      <span class="person-role">Organizing Committee</span>
+    </figcaption>
   </figure>
 </div>
 
-
----
-
-## **Contact** {#contact}
-
-Contact the organizers either by Slack (MvL6), Mattermost (MPI-IS), or email. 
-If you have any good ideas or suggestions for improving Friday Talks, please let us know through this [form](https://docs.google.com/forms/d/e/1FAIpQLSd5cZkGq7rtz3QQUTtAGGkOYXzYcU6O4y3JtsNXovB8jJXbvw/viewform)!
+</section>
