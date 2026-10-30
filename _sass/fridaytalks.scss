@@ -896,6 +896,45 @@ a:hover {
   color: var(--ink-soft);
 }
 
+/* Small "see all" link on the heading line, right-aligned (e.g. Latest Talks). */
+.section-with-action {
+  position: relative;
+}
+
+.section-action {
+  position: absolute;
+  right: 0;
+  top: calc(
+    clamp(2.75rem, 6vw, 4.25rem) + (clamp(1.7rem, 3.6vw, 2.3rem) * 1.15 - 1.5rem) / 2
+  );
+  line-height: 1.5rem;
+}
+
+.section-action a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-weight: 600;
+  color: var(--teal);
+  text-decoration: none;
+  transition: color 0.16s ease;
+}
+
+.section-action svg {
+  width: 1.05em;
+  height: 1.05em;
+  transition: transform 0.2s ease;
+}
+
+.section-action a:hover {
+  color: var(--teal-darker);
+  text-decoration: none;
+}
+
+.section-action a:hover svg {
+  transform: translateX(3px);
+}
+
 @media (max-width: 62em) {
   .videos {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -909,6 +948,12 @@ a:hover {
 @media (max-width: 48em) {
   .videos {
     grid-template-columns: 1fr;
+  }
+
+  .section-action {
+    position: static;
+    margin: -0.5rem 0 1.25rem;
+    text-align: center;
   }
 
   .video-card:nth-child(3) {

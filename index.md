@@ -11,9 +11,11 @@ Are you curious about what your colleague next door is working on?
 
 </section>
 
-<section class="section" id="past-talks" markdown="1" hidden>
+<section class="section section-with-action" id="latest-talks" markdown="1" hidden>
 
-## Past Talks
+## Latest Talks
+
+<div class="section-action"><a href="#schedule">All talks <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.25" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a></div>
 
 <!-- Filled in by the layout script from the three topmost schedule rows with a YouTube link. -->
 <div class="videos" data-latest-videos></div>
