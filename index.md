@@ -11,6 +11,15 @@ Are you curious about what your colleague next door is working on?
 
 </section>
 
+<section class="section" id="past-talks" markdown="1" hidden>
+
+## Past Talks
+
+<!-- Filled in by the layout script from the three topmost schedule rows with a YouTube link. -->
+<div class="videos" data-latest-videos></div>
+
+</section>
+
 <section class="section" id="schedule" markdown="1">
 
 ## Schedule
@@ -137,21 +146,21 @@ Therefore, we especially encourage the presentation of work that is *under submi
 
 <div class="people">
   <figure class="person">
-    <a href="https://jzenn.github.io"><img class="person-photo" src="https://jzenn.github.io/assets/images/bio-photo-j.jpg" alt="Johannes Zenn" loading="lazy" /></a>
-    <figcaption>
-      <a class="person-name" href="https://jzenn.github.io">Johannes Zenn</a>
-      <span class="person-years">2025 –</span>
-      <span class="person-role">Organizing Committee</span>
-      <span class="person-role">General Chair, Program Chair</span>
-    </figcaption>
-  </figure>
-  <figure class="person">
     <a href="https://hertie.ai/machine-learning/team/members/shreyash-garg"><img class="person-photo" src="assets/media%20for%20webpage/shreyashg.jpg" alt="Shreyash Garg" loading="lazy" /></a>
     <figcaption>
       <a class="person-name" href="https://hertie.ai/machine-learning/team/members/shreyash-garg">Shreyash Garg</a>
       <span class="person-years">2026 –</span>
       <span class="person-role">Organizing Committee</span>
-      <span class="person-role">Communication Chair, Program Chair</span>
+      <span class="person-role">General Chair, YouTube Chair</span>
+    </figcaption>
+  </figure>
+  <figure class="person">
+    <a href="https://institute-tue.ellis.eu/en/people/vmilovanovic"><img class="person-photo" src="https://institute-tue.ellis.eu/uploads/person/image/2968/thumb_ticker_lg_ph.jpg" alt="Vera Milovanovic" loading="lazy" /></a>
+    <figcaption>
+      <a class="person-name" href="https://institute-tue.ellis.eu/en/people/vmilovanovic">Vera Milovanovic</a>
+      <span class="person-years">2026 –</span>
+      <span class="person-role">Organizing Committee</span>
+      <span class="person-role">General Chair, Program Chair</span>
     </figcaption>
   </figure>
   <figure class="person">
@@ -164,12 +173,21 @@ Therefore, we especially encourage the presentation of work that is *under submi
     </figcaption>
   </figure>
   <figure class="person">
-    <a href="https://institute-tue.ellis.eu/en/people/vmilovanovic"><img class="person-photo" src="https://institute-tue.ellis.eu/uploads/person/image/2968/thumb_ticker_lg_ph.jpg" alt="Vera Milovanovic" loading="lazy" /></a>
+    <a href="https://fanfeili.github.io"><img class="person-photo" src="https://fanfeili.github.io/photo.jpg" alt="Fanfei Li" loading="lazy" /></a>
     <figcaption>
-      <a class="person-name" href="https://institute-tue.ellis.eu/en/people/vmilovanovic">Vera Milovanovic</a>
+      <a class="person-name" href="https://fanfeili.github.io">Fanfei Li</a>
       <span class="person-years">2026 –</span>
       <span class="person-role">Organizing Committee</span>
-      <span class="person-role">Program Chair</span>
+      <span class="person-role">Communications Chair</span>
+    </figcaption>
+  </figure>
+  <figure class="person">
+    <a href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/kognitive-systeme/the-chair/staff/rafia-rahim/"><img class="person-photo" src="https://uni-tuebingen.de/fileadmin/_processed_/2/0/csm_rafia_ee838995cb.webp" alt="Rafia Rahim" loading="lazy" /></a>
+    <figcaption>
+      <a class="person-name" href="https://uni-tuebingen.de/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/kognitive-systeme/the-chair/staff/rafia-rahim/">Rafia Rahim</a>
+      <span class="person-years">2026 –</span>
+      <span class="person-role">Organizing Committee</span>
+      <span class="person-role">Social Media Chair</span>
     </figcaption>
   </figure>
   <figure class="person">
@@ -192,6 +210,15 @@ Therefore, we especially encourage the presentation of work that is *under submi
 
 <div class="people">
   <figure class="person">
+    <a href="https://jzenn.github.io"><img class="person-photo" src="https://jzenn.github.io/assets/images/bio-photo-j.jpg" alt="Johannes Zenn" loading="lazy" /></a>
+    <figcaption>
+      <a class="person-name" href="https://jzenn.github.io">Johannes Zenn</a>
+      <span class="person-years">2025 – 2027</span>
+      <span class="person-role">Organizing Committee</span>
+      <span class="person-role">General Chair, Program Chair</span>
+    </figcaption>
+  </figure>
+  <figure class="person">
     <a href="https://timx.me"><img class="person-photo" src="https://timx.me/assets/img/prof_pic.jpg" alt="Tim Xiao" loading="lazy" /></a>
     <figcaption>
       <a class="person-name" href="https://timx.me">Tim Xiao</a>
@@ -209,7 +236,7 @@ Therefore, we especially encourage the presentation of work that is *under submi
     </figcaption>
   </figure>
   <figure class="person">
-    <a href="https://www.mlsustainableenergy.com/people/kibidi-neocosmos/"><img class="person-photo" src="https://www.mlsustainableenergy.com/people/kibidi-neocosmos/avatar_hu1109fe9225abe29db7b8d1b94ad5951f_1270024_270x270_fill_q75_lanczos_center.jpg" alt="Kibidi Neocosmos" loading="lazy" /></a>
+    <a href="https://www.mlsustainableenergy.com/people/kibidi-neocosmos/"><img class="person-photo" src="https://assets.uni-augsburg.de/media/filer_public_thumbnails/filer_public/b3/8a/b38aeadc-2788-4b6d-8671-7986a7c883e1/avatar.jpg__700x480_q85_crop_optimize_subsampling-2_upscale.jpg" alt="Kibidi Neocosmos" loading="lazy" /></a>
     <figcaption>
       <a class="person-name" href="https://www.mlsustainableenergy.com/people/kibidi-neocosmos/">Kibidi Neocosmos</a>
       <span class="person-years">2023 – 2026</span>

@@ -90,29 +90,55 @@
         </div>
 
         <div class="hero-actions">
-          <a
-            class="btn btn-primary"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSe5jIJy-v0jmO9iDzAszIuvPcpmc0khMxwRCTPEgjUm_zcAsg/viewform"
-            target="_blank"
-            rel="noopener"
-            >I want to present my work!</a
-          >
-          <a
-            class="btn btn-ghost"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSemwF-lT7CSTaP-AR2gsB_XpkgrYkxCo_cUidL-RgH67JM3Pw/viewform?usp=dialog"
-            target="_blank"
-            rel="noopener"
-            >I want to nominate a colleague!</a
-          >
-          <a
-            class="btn btn-ghost"
-            href="https://www.youtube.com/@FridayTalksTuebingen"
-            target="_blank"
-            rel="noopener"
-          >
-            <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.12-2.12C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.53A3 3 0 0 0 .5 6.2C0 8.08 0 12 0 12s0 3.92.5 5.8a3 3 0 0 0 2.12 2.12c1.88.53 9.38.53 9.38.53s7.5 0 9.38-.53a3 3 0 0 0 2.12-2.12C24 15.92 24 12 24 12s0-3.92-.5-5.8ZM9.6 15.57V8.43L15.82 12 9.6 15.57Z"/></svg>
-            Past talks
-          </a>
+          <div class="hero-actions-row">
+            <a
+              class="btn btn-accent btn-lg"
+              href="https://www.youtube.com/@FridayTalksTuebingen"
+              target="_blank"
+              rel="noopener"
+              >
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M23.5 6.2a3 3 0 0 0-2.12-2.12C19.5 3.55 12 3.55 12 3.55s-7.5 0-9.38.53A3 3 0 0 0 .5 6.2C0 8.08 0 12 0 12s0 3.92.5 5.8a3 3 0 0 0 2.12 2.12c1.88.53 9.38.53 9.38.53s7.5 0 9.38-.53a3 3 0 0 0 2.12-2.12C24 15.92 24 12 24 12s0-3.92-.5-5.8ZM9.6 15.57V8.43L15.82 12 9.6 15.57Z"/></svg>
+              Past talks
+            </a
+            >
+            <a
+              class="btn btn-accent btn-lg"
+              href="https://zoom.us/j/92741970794"
+              target="_blank"
+              rel="noopener"
+              >
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m22 8-6 4 6 4V8Z"/><rect x="2" y="6" width="14" height="12" rx="2"/></svg>
+              Join live
+            </a
+            >
+            <a
+              class="btn btn-accent btn-lg"
+              href="https://x.com/fridaytalkstue"
+              aria-label="Follow FridayTalks on X"
+              target="_blank"
+              rel="noopener"
+              >
+              <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231Zm-1.161 17.52h1.833L7.084 4.126H5.117L17.083 19.77Z"/></svg>
+              Follow
+            </a
+            >
+          </div>
+          <div class="hero-actions-row">
+            <a
+              class="btn btn-primary"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSe5jIJy-v0jmO9iDzAszIuvPcpmc0khMxwRCTPEgjUm_zcAsg/viewform"
+              target="_blank"
+              rel="noopener"
+              >I want to present my work!</a
+            >
+            <a
+              class="btn btn-ghost"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSemwF-lT7CSTaP-AR2gsB_XpkgrYkxCo_cUidL-RgH67JM3Pw/viewform?usp=dialog"
+              target="_blank"
+              rel="noopener"
+              >I want to nominate a colleague!</a
+            >
+          </div>
         </div>
 
         <div class="hero-card">
@@ -196,6 +222,88 @@
             });
           });
         });
+
+        // Past Talks: build cards from the three topmost schedule rows that link a YouTube video.
+        (function () {
+          var grid = document.querySelector("[data-latest-videos]");
+          if (!grid) return;
+          var months = ["January", "February", "March", "April", "May", "June", "July",
+            "August", "September", "October", "November", "December"];
+
+          function videoId(href) {
+            var m = href.match(/(?:youtu\.be\/|[?&]v=|\/embed\/|\/shorts\/)([\w-]{11})/);
+            return m ? m[1] : null;
+          }
+
+          function yearOf(table) {
+            var node = table.closest(".table-wrap") || table;
+            var details = node.closest("details");
+            if (details) {
+              var summary = details.querySelector("summary");
+              var m = summary && summary.textContent.match(/\d{4}/);
+              if (m) return m[0];
+            }
+            for (var el = node.previousElementSibling; el; el = el.previousElementSibling) {
+              var y = /^H[1-6]$/.test(el.tagName) && el.textContent.match(/\d{4}/);
+              if (y) return y[0];
+            }
+            return "";
+          }
+
+          function el(tag, cls, text) {
+            var e = document.createElement(tag);
+            if (cls) e.className = cls;
+            if (text) e.textContent = text;
+            return e;
+          }
+
+          var found = [];
+          document.querySelectorAll("#schedule .table-wrap table").forEach(function (table) {
+            var year = yearOf(table);
+            table.querySelectorAll("tbody tr").forEach(function (row) {
+              if (found.length >= 3) return;
+              var link = Array.prototype.find.call(row.querySelectorAll("a[href]"), function (a) {
+                return /youtu\.?be/.test(a.href) && videoId(a.href);
+              });
+              if (!link || row.cells.length < 3) return;
+              var d = row.cells[0].textContent.match(/(\d{1,2})\/(\d{1,2})/);
+              found.push({
+                id: videoId(link.href),
+                title: row.cells[1].textContent.trim(),
+                speaker: row.cells[2].textContent.trim(),
+                date: d ? +d[1] + " " + months[+d[2] - 1] + (year ? " " + year : "") : ""
+              });
+            });
+          });
+          if (!found.length) return;
+
+          found.forEach(function (v) {
+            var card = el("a", "video-card");
+            card.href = "https://www.youtube.com/watch?v=" + v.id;
+            card.target = "_blank";
+            card.rel = "noopener";
+
+            var thumb = el("span", "video-thumb");
+            var img = el("img");
+            img.src = "https://i.ytimg.com/vi/" + v.id + "/hqdefault.jpg";
+            img.alt = "";
+            img.loading = "lazy";
+            var play = el("span", "video-play");
+            play.setAttribute("aria-hidden", "true");
+            play.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5.5v13l11-6.5z"/></svg>';
+            thumb.appendChild(img);
+            thumb.appendChild(play);
+
+            var meta = el("span", "video-meta");
+            meta.appendChild(el("span", "video-title", v.title));
+            meta.appendChild(el("span", "video-speaker", [v.speaker, v.date].filter(Boolean).join(" · ")));
+
+            card.appendChild(thumb);
+            card.appendChild(meta);
+            grid.appendChild(card);
+          });
+          grid.closest("section").hidden = false;
+        })();
 
         var nav = document.querySelector(".site-nav");
         var toTop = document.querySelector(".to-top");
